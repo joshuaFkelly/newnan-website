@@ -10,7 +10,7 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import { Routes, Route, Link } from "react-router-dom";
-
+import logo from "../../Images/logo.png"
 const programs = [
     {
         name: 'Cardio Kickboxing',
@@ -61,8 +61,9 @@ const NavBar = () => {
                         <a href="/">
                             <span className="sr-only">Workflow</span>
                             <img
+
                                 className="h-8 w-auto sm:h-10"
-                                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                                src={logo}
                                 alt="independent mma and fitness newnan, ga gym logo"
                             />
                         </a>
